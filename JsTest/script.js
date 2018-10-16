@@ -94,3 +94,25 @@
 //----------------------------------------------------
 
 console.log('Задание 6');
+
+
+let colorArray = [
+    document.getElementsByClassName('element'),
+    document.getElementsByClassName('element'),
+    document.getElementsByClassName('element'),
+    document.getElementsByClassName('element'),
+    document.getElementsByClassName('element'),
+    document.getElementsByClassName('element')
+];
+
+
+for (i = 0; i < colorArray.length; i++) {
+
+    if (i < 3) {
+        colorArray = changeBackground('red');
+    }
+}
+
+function changeBackground(color) {
+    document.getElementsByClassName('element').style.background = color;
+}
