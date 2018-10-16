@@ -1,4 +1,4 @@
-// alert('Задание 1');
+// console.log('Задание 1');
 //
 //
 // var arr = ['Кефир','Водка','Водка','Кефир','Кефир' ]
@@ -17,7 +17,7 @@
 //
 // //----------------------------------------------------
 //
-// alert('Задание 2');
+// console.log('Задание 2');
 //
 // var array = [1, 5, 12, 4, 3];
 //
@@ -39,7 +39,7 @@
 //
 // //----------------------------------------------------
 //
-// alert('Задание 3');
+// console.log('Задание 3');
 
 // var result  = prompt("Кто лучший друг крокодила Гены?", '');
 //
@@ -57,6 +57,40 @@
 //
 // cheburash(result);
 
+// //----------------------------------------------------
+//
+// console.log('Задание 4');
+
+// var Duck = {
+//     name : 'Дональд',
+//     color: 'белый',
+//     old : 1,
+//     toStr: function () {
+//         return this.name + ',' + this.color + ',' + this.old;
+//     },
+//     toSay: function (voice) {
+//         return voice;
+//     }
+// };
+//
+// console.log(Duck.toStr(), Duck.toSay('Кря кря'));
+
 //----------------------------------------------------
 
-alert('Задание 4');
+// console.log('Задание 5');
+//
+// let string = [
+//     document.getElementById('string-3'),
+//     document.getElementById('string-5'),
+//     document.getElementById('string-2'),
+//     document.getElementById('string-6'),
+//     document.getElementById('string-4'),
+//     document.getElementById('string-1')];
+//
+// for (i = 0 ; i < string.length; i++){
+//     console.log(string[i].textContent);
+// }
+
+//----------------------------------------------------
+
+console.log('Задание 6');
