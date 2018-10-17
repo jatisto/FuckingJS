@@ -92,27 +92,39 @@
 // }
 
 //----------------------------------------------------
+//
+// console.log('Задание 6');
+//
+// Вариант 1
 
-console.log('Задание 6');
+// var colorArray = document.getElementsByClassName('element');
 
+// colorArray[0].style.backgroundColor = '#AA0000';
+// colorArray[1].style.backgroundColor = '#AA0000';
+// colorArray[2].style.backgroundColor = '#AA0000';
 
-let colorArray = [
-    document.getElementsByClassName('element'),
-    document.getElementsByClassName('element'),
-    document.getElementsByClassName('element'),
-    document.getElementsByClassName('element'),
-    document.getElementsByClassName('element'),
-    document.getElementsByClassName('element')
-];
+// Вариант 2
 
+// var colorDivs = document.getElementsByClassName("element");
+// for (i = 0 ; i < colorDivs.length; i++) {
+//    if (i < 3){
+//        colorDivs[i].style.backgroundColor = "#AA0000";
+//    }
+// }
 
-for (i = 0; i < colorArray.length; i++) {
+//----------------------------------------------------
 
-    if (i < 3) {
-        colorArray = changeBackground('red');
+console.log('Задание 7');
+
+var colorArray2 = document.getElementsByClassName('container');
+
+var new_element = ('<div class="element">Element</div>');
+
+var colorArray2 = document.body.getElementsByClassName("container");
+for(var i = 0; i < colorArray2.length; i++) {
+    for(var j = 0; j < 6; j++) {
+        var div = document.createElement(new_element);
+        colorArray2[i].appendChild(new_element);
+        console.log(colorArray2[i])
     }
-}
-
-function changeBackground(color) {
-    document.getElementsByClassName('element').style.background = color;
 }
