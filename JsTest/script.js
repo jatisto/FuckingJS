@@ -113,13 +113,13 @@ for (i = 0 ; i < colorDivs.length; i++) {
 alert('Задание 7');
 console.log('Задание 7');
 
-var element = ('<div class="element7">Element7</div>');
+// var element = ('<div class="element7">Element7</div>');
 
-var colorArray7 = document.body.getElementsByClassName("container7");
+var colorArray7 = document.getElementsByClassName("container7");
 for(i = 0; i < colorArray7.length; i++) {
     var innerHtml7 = "";
     for(var j = 0; j < 5; j++) {
-        innerHtml7 += element;
+        innerHtml7 += '<div class="element7">Element7</div>';
     }
     colorArray7[i].innerHTML = innerHtml7;
     console.log(colorArray7[i])
