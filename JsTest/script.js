@@ -114,17 +114,20 @@
 
 //----------------------------------------------------
 
+// console.log('Задание 7');
+//
+// var element = ('<div class="element">Element</div>');
+//
+// var colorArray2 = document.body.getElementsByClassName("container");
+// for(var i = 0; i < colorArray2.length; i++) {
+//     var innerHtml = "";
+//     for(var j = 0; j < 5; j++) {
+//         innerHtml += element;
+//     }
+//     colorArray2[i].innerHTML = innerHtml;
+//     console.log(colorArray2[i])
+// }
+
+//----------------------------------------------------
+
 console.log('Задание 7');
-
-var colorArray2 = document.getElementsByClassName('container');
-
-var new_element = ('<div class="element">Element</div>');
-
-var colorArray2 = document.body.getElementsByClassName("container");
-for(var i = 0; i < colorArray2.length; i++) {
-    for(var j = 0; j < 6; j++) {
-        var div = document.createElement(new_element);
-        colorArray2[i].appendChild(new_element);
-        console.log(colorArray2[i])
-    }
-}
