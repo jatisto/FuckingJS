@@ -48,13 +48,13 @@ var result  = prompt("Кто лучший друг крокодила Гены?"
 
 function cheburash()
 {
-    if (result === 'чебураш')
+    if (result === 'чебураш' || result === 'чебурашка'|| result === 'cheburashka' )
     {
-        alert('And this right!');
+        alert('Это верно!!!');
     }
     else
     {
-        alert('And this not right!');
+        alert('Это не верно!');
     }
 }
 
@@ -113,16 +113,16 @@ for (i = 0 ; i < colorDivs.length; i++) {
 alert('Задание 7');
 console.log('Задание 7');
 
-// var element = ('<div class="element7">Element7</div>');
+var element = ('<div class="element7">Element7</div>');
 
 var colorArray7 = document.getElementsByClassName("container7");
 for(i = 0; i < colorArray7.length; i++) {
     var innerHtml7 = "";
     for(var j = 0; j < 5; j++) {
-        innerHtml7 += '<div class="element7">Element7</div>';
+        innerHtml7 += element;
     }
     colorArray7[i].innerHTML = innerHtml7;
-    console.log(colorArray7[i])
+    console.log(colorArray7[i]);
 }
 
 //----------------------------------------------------
@@ -144,8 +144,8 @@ function createElementsInsideAndButton() {
         btn.setAttribute("type", "button");
         btn.value = "+";
         colorArray8[i].parentNode.insertBefore(btn, colorArray8[i].nextSibling);
-        console.log(colorArray8[i])
-        console.log(btn)
+        console.log(colorArray8[i]);
+        console.log(btn);
     }
 }
 //----------------------------------------------------
@@ -162,14 +162,14 @@ while (i < countNum) {
 
     function createTime() {
     }setTimeout(function () {
-        createElementsInsideAndButton2();
+        createElementsInsideAndButton9();
         console.log("Содаёться элемент")
     }, i*2000);
     i++;
 }
 
 
-function createElementsInsideAndButton2() {
+function createElementsInsideAndButton9() {
     var colorArray9 = document.body.getElementsByClassName("container9");
     for (var i = 0; i < colorArray9.length; i++) {
         var innerHtml9 = "";
