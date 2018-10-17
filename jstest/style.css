@@ -1,0 +1,48 @@
+
+.container{
+    border: 1px solid black;
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    display: table;
+}
+.container7{
+    border: 1px solid black;
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    display: table;
+}
+
+.container8{
+    border: 1px solid black;
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    display: table;
+}
+
+.container9{
+    border: 1px solid black;
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+}
+
+.element {
+    background: white;
+    display: table;
+    margin: 5px;
+}
+
+.element7 {
+    background: peachpuff;
+    display: table;
+    margin: 5px;
+}
+
+.element8 {
+    background: lightgreen;
+    display: table;
+    margin: 5px;
+}
